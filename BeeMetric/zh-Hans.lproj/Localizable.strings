@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  BeeMetric
+
+  Created by Feng on 2024/12/6.
+  
+*/
+
+"beeMetText1" = "蜂窝空间规划";
+"beeMetText2" = "蜂窝温湿度";
+"beeMetText3" = "花蜜源植物需求";
+
+"beeMetText4" = "根据蚁群大小规划巢框布局";
+"beeMetText5" = "提供理想的温湿度范围和调整建议";
+"beeMetText6" = "根据蜜蜂的数量计算所需的蜜源面积";
+
+"beeMetText7" = "蜂巢面积要求（㎡）= 每框面积（㎡） x 巢框数量";
+"beeMetText8" = "加热功率（W）=蜂箱保温损失（W/m²）×蜂箱表面积（m²）";
+"beeMetText9" = "蜜源面积（m²）=蜜蜂数量×每蜂群蜜源需求量(kg)/每平方米蜜粉产量(kg)";
+
+"beeMetText10" = "1 - 每框面积（㎡）";
+"beeMetText11" = "1 - 蜂巢隔热损失（W/m²）";
+"beeMetText12" = "1 - 蜜蜂数量×每蜂群蜜源需求量（kg）";
+
+"beeMetText13" = "2 - 巢框数量";
+"beeMetText14" = "2 - 蜂巢表面面积 (m²)";
+"beeMetText15" = "2 - 每平方米蜂蜜粉产量 (kg)";
+

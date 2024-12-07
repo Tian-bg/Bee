@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - unimp/Core (4.29):
+    - SDWebImage (= 5.19.2)
+  - unimp/File (4.29)
+  - unimp/Masonry (4.29)
+  - unimp/Video (4.29):
+    - unimp/Masonry
+
+DEPENDENCIES:
+  - AFNetworking
+  - SVProgressHUD
+  - unimp/Core
+  - unimp/File
+  - unimp/Video
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SDWebImage
+    - SVProgressHUD
+    - unimp
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  unimp: 3387dda97f23a6210f8e1b9aad2725d45fc6a763
+
+PODFILE CHECKSUM: 05c09efca6b5a527e6d7d9602e77d0be13bd0f5c
+
+COCOAPODS: 1.15.2

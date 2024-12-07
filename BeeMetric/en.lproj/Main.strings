@@ -1,0 +1,51 @@
+
+/* Class = "UIButton"; normalTitle = "Nectar needs"; ObjectID = "3n5-Wf-KZx"; */
+"3n5-Wf-KZx.normalTitle" = "Nectar needs";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BvK-m7-P9X"; */
+"BvK-m7-P9X.text" = "Label";
+
+/* Class = "UILabel"; text = "Simplify beekeeping,optimize your hive managenment!"; ObjectID = "CTF-sU-SnG"; */
+"CTF-sU-SnG.text" = "Simplify beekeeping,optimize your hive managenment!";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "H5k-Oo-XMT"; */
+"H5k-Oo-XMT.text" = "More";
+
+/* Class = "UILabel"; text = "Honeycomb spatial planning"; ObjectID = "NxT-Q3-Vgj"; */
+"NxT-Q3-Vgj.text" = "Honeycomb spatial planning";
+
+/* Class = "UIButton"; normalTitle = "calculate"; ObjectID = "PlB-IY-us9"; */
+"PlB-IY-us9.normalTitle" = "calculate";
+
+/* Class = "UIButton"; normalTitle = "Humiture"; ObjectID = "SQ0-tz-ROg"; */
+"SQ0-tz-ROg.normalTitle" = "Humiture";
+
+/* Class = "UITextView"; text = "I. Beekeeping Tips\n\nChoose the Right Location\nSelect a sunny, dry, and wind-sheltered area for beekeeping, far from pesticide-use zones.\nEnsure an abundant supply of nectar plants nearby, such as rapeseed flowers, locust trees, or vitex.\n\nOptimize Bee Species\nChoose suitable bee species based on climate and production goals. For example, Italian bees are ideal for high honey yields, while Chinese bees are better suited for mountainous regions.\nRegularly replace old queens to enhance colony productivity.\n\nScientific Hive Management\nInspect comb frames regularly to prevent overcrowding or comb degradation.\nAdjust the number of comb frames to maintain appropriate hive space.\n\nNectar Source Management\nPromote colony reproduction during nectar periods and provide supplemental feed (syrup, pollen) when nectar is scarce.\n\nPractice migratory beekeeping by moving colonies to areas with abundant seasonal nectar sources.\n\nDisease Prevention\nRegularly inspect for common diseases such as varroa mites and nosema disease.\nUse a combination of biological and medicinal methods to control diseases effectively.\n\nTemperature and Humidity Control\nMaintain an ideal hive temperature of 34-35°C and humidity of 50-60%.\nWinter: Insulate hives to prevent frost damage.\nSummer: Ensure proper ventilation to avoid overheating.\n\nQueen Bee Management\nEnsure the queen is healthy and productive; replace old or weak queens promptly.\nCultivate high-quality queens to sustain colony growth and expansion.\n\nII. Precautions\n\nAvoid Pesticide Poisoning\nKeep apiaries away from farmlands to prevent bees from being poisoned by collecting pesticide-contaminated pollen.\nPrevent Colony Escape\nCheck hives for stability to avoid colony escape due to unsuitable conditions.\nProvide sufficient food and space to reduce stress on the bees.\nControl Colony Density\nAvoid overcrowding colonies in the same area to prevent nectar competition and disease transmission.\nSeasonal Management\nSpring: Accelerate colony reproduction to prepare for the main nectar flow.\nSummer: Prevent overheating and robbing, and harvest honey promptly.\nAutumn: Breed overwintering bees and store adequate feed.\nWinter: Ensure proper insulation to reduce bee activity and conserve energy.\nRecord Data\nRegularly document colony numbers, honey yields, and queen status for analysis and management improvements.\nMaintain a Safe Distance\nAvoid sudden movements when handling bees, wear protective gear, and prevent stings.\nBy following these tips and precautions, you can manage your beekeeping operation more scientifically and efficiently, achieving higher yields and economic benefits!"; ObjectID = "TBE-FE-rNE"; */
+"TBE-FE-rNE.text" = "I. Beekeeping Tips\n\nChoose the Right Location\nSelect a sunny, dry, and wind-sheltered area for beekeeping, far from pesticide-use zones.\nEnsure an abundant supply of nectar plants nearby, such as rapeseed flowers, locust trees, or vitex.\n\nOptimize Bee Species\nChoose suitable bee species based on climate and production goals. For example, Italian bees are ideal for high honey yields, while Chinese bees are better suited for mountainous regions.\nRegularly replace old queens to enhance colony productivity.\n\nScientific Hive Management\nInspect comb frames regularly to prevent overcrowding or comb degradation.\nAdjust the number of comb frames to maintain appropriate hive space.\n\nNectar Source Management\nPromote colony reproduction during nectar periods and provide supplemental feed (syrup, pollen) when nectar is scarce.\n\nPractice migratory beekeeping by moving colonies to areas with abundant seasonal nectar sources.\n\nDisease Prevention\nRegularly inspect for common diseases such as varroa mites and nosema disease.\nUse a combination of biological and medicinal methods to control diseases effectively.\n\nTemperature and Humidity Control\nMaintain an ideal hive temperature of 34-35°C and humidity of 50-60%.\nWinter: Insulate hives to prevent frost damage.\nSummer: Ensure proper ventilation to avoid overheating.\n\nQueen Bee Management\nEnsure the queen is healthy and productive; replace old or weak queens promptly.\nCultivate high-quality queens to sustain colony growth and expansion.\n\nII. Precautions\n\nAvoid Pesticide Poisoning\nKeep apiaries away from farmlands to prevent bees from being poisoned by collecting pesticide-contaminated pollen.\nPrevent Colony Escape\nCheck hives for stability to avoid colony escape due to unsuitable conditions.\nProvide sufficient food and space to reduce stress on the bees.\nControl Colony Density\nAvoid overcrowding colonies in the same area to prevent nectar competition and disease transmission.\nSeasonal Management\nSpring: Accelerate colony reproduction to prepare for the main nectar flow.\nSummer: Prevent overheating and robbing, and harvest honey promptly.\nAutumn: Breed overwintering bees and store adequate feed.\nWinter: Ensure proper insulation to reduce bee activity and conserve energy.\nRecord Data\nRegularly document colony numbers, honey yields, and queen status for analysis and management improvements.\nMaintain a Safe Distance\nAvoid sudden movements when handling bees, wear protective gear, and prevent stings.\nBy following these tips and precautions, you can manage your beekeeping operation more scientifically and efficiently, achieving higher yields and economic benefits!";
+
+/* Class = "UILabel"; text = "Honeycomb spatial planning"; ObjectID = "WJv-5M-0AX"; */
+"WJv-5M-0AX.text" = "Honeycomb spatial planning";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "X3f-dn-Bdn"; */
+"X3f-dn-Bdn.text" = "Label";
+
+/* Class = "UILabel"; text = "Intelligently plan nest frame layout according to colony size."; ObjectID = "ahd-EC-b22"; */
+"ahd-EC-b22.text" = "Intelligently plan nest frame layout according to colony size.";
+
+/* Class = "UIButton"; normalTitle = "Spatial planning"; ObjectID = "cIU-aH-Ut3"; */
+"cIU-aH-Ut3.normalTitle" = "Spatial planning";
+
+/* Class = "UITextField"; placeholder = "Input"; ObjectID = "gEx-ym-hzw"; */
+"gEx-ym-hzw.placeholder" = "Input";
+
+/* Class = "UILabel"; text = "Honeycomb spatial planning"; ObjectID = "giu-e6-D0F"; */
+"giu-e6-D0F.text" = "Honeycomb spatial planning";
+
+/* Class = "UILabel"; text = "Sharing beekeeping tips"; ObjectID = "jck-bS-a1J"; */
+"jck-bS-a1J.text" = "Sharing beekeeping tips";
+
+/* Class = "UITextField"; placeholder = "Input"; ObjectID = "mIK-SX-I66"; */
+"mIK-SX-I66.placeholder" = "Input";
+
+/* Class = "UILabel"; text = "NectaNest"; ObjectID = "suU-aI-szB"; */
+"suU-aI-szB.text" = "NectaNest";

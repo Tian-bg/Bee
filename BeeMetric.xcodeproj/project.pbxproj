@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585312FE16543F036C7A1A2C /* Pods_BeeMetric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E05F5F132453346F3B7C2A1 /* Pods_BeeMetric.framework */; };
+		B206F9732D004A8E0094C428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B206F9712D004A8E0094C428 /* InfoPlist.strings */; };
+		B2ABD2B02CF461DF00835085 /* ColonyHarmony.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD2AF2CF461DF00835085 /* ColonyHarmony.m */; };
+		B2ABD2B32CF474CD00835085 /* BeeFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD2B22CF474CD00835085 /* BeeFlight.m */; };
+		B2FAE30D2D02FE2400B851C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2FAE30B2D02FE2400B851C4 /* Localizable.strings */; };
+		B2FAE3182D030A5400B851C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DBD0792CEDD2A700EFFEF3 /* Main.storyboard */; };
+		F5DBD0722CEDD2A700EFFEF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DBD0712CEDD2A700EFFEF3 /* AppDelegate.m */; };
+		F5DBD0782CEDD2A700EFFEF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DBD0772CEDD2A700EFFEF3 /* ViewController.m */; };
+		F5DBD07B2CEDD2A700EFFEF3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5DBD07A2CEDD2A700EFFEF3 /* Base */; };
+		F5DBD07D2CEDD2AC00EFFEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DBD07C2CEDD2AC00EFFEF3 /* Assets.xcassets */; };
+		F5DBD0802CEDD2AC00EFFEF3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5DBD07F2CEDD2AC00EFFEF3 /* Base */; };
+		F5DBD0832CEDD2AC00EFFEF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DBD0822CEDD2AC00EFFEF3 /* main.m */; };
+		F5DBD0902CEDE41A00EFFEF3 /* BeeMetricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DBD08F2CEDE41A00EFFEF3 /* BeeMetricViewController.m */; };
+		F5DBD0932CEDE63A00EFFEF3 /* BeeLeanMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DBD0922CEDE63A00EFFEF3 /* BeeLeanMoreViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		774B8EFE6EC4FC51895D233F /* Pods-BeeMetric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeMetric.debug.xcconfig"; path = "Target Support Files/Pods-BeeMetric/Pods-BeeMetric.debug.xcconfig"; sourceTree = "<group>"; };
+		7E05F5F132453346F3B7C2A1 /* Pods_BeeMetric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeeMetric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B206F9702D004A750094C428 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B206F9722D004A8E0094C428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B206F9742D004A9A0094C428 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B2ABD2AE2CF461DF00835085 /* ColonyHarmony.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColonyHarmony.h; sourceTree = "<group>"; };
+		B2ABD2AF2CF461DF00835085 /* ColonyHarmony.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColonyHarmony.m; sourceTree = "<group>"; };
+		B2ABD2B12CF474CD00835085 /* BeeFlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeFlight.h; sourceTree = "<group>"; };
+		B2ABD2B22CF474CD00835085 /* BeeFlight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeFlight.m; sourceTree = "<group>"; };
+		B2FAE30C2D02FE2400B851C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2FAE30E2D02FE2800B851C4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B2FAE3162D0303AB00B851C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B2FAE3172D0303AE00B851C4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		C066AA1B2DA83DC91C08F91E /* Pods-BeeMetric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeMetric.release.xcconfig"; path = "Target Support Files/Pods-BeeMetric/Pods-BeeMetric.release.xcconfig"; sourceTree = "<group>"; };
+		F5DBD06D2CEDD2A700EFFEF3 /* BeeMetric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeMetric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DBD0702CEDD2A700EFFEF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5DBD0712CEDD2A700EFFEF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5DBD0762CEDD2A700EFFEF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5DBD0772CEDD2A700EFFEF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5DBD07A2CEDD2A700EFFEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5DBD07C2CEDD2AC00EFFEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5DBD07F2CEDD2AC00EFFEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5DBD0812CEDD2AC00EFFEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DBD0822CEDD2AC00EFFEF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5DBD08E2CEDE41A00EFFEF3 /* BeeMetricViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeMetricViewController.h; sourceTree = "<group>"; };
+		F5DBD08F2CEDE41A00EFFEF3 /* BeeMetricViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeMetricViewController.m; sourceTree = "<group>"; };
+		F5DBD0912CEDE63A00EFFEF3 /* BeeLeanMoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeLeanMoreViewController.h; sourceTree = "<group>"; };
+		F5DBD0922CEDE63A00EFFEF3 /* BeeLeanMoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeLeanMoreViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5DBD06A2CEDD2A700EFFEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585312FE16543F036C7A1A2C /* Pods_BeeMetric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A0AB71D3545826BE503053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E05F5F132453346F3B7C2A1 /* Pods_BeeMetric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6E344DF4667A41358542B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				774B8EFE6EC4FC51895D233F /* Pods-BeeMetric.debug.xcconfig */,
+				C066AA1B2DA83DC91C08F91E /* Pods-BeeMetric.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5DBD0642CEDD2A700EFFEF3 = {
+			isa = PBXGroup;
+			children = (
+				F5DBD06F2CEDD2A700EFFEF3 /* BeeMetric */,
+				F5DBD06E2CEDD2A700EFFEF3 /* Products */,
+				BF6E344DF4667A41358542B3 /* Pods */,
+				42A0AB71D3545826BE503053 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5DBD06E2CEDD2A700EFFEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5DBD06D2CEDD2A700EFFEF3 /* BeeMetric.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5DBD06F2CEDD2A700EFFEF3 /* BeeMetric */ = {
+			isa = PBXGroup;
+			children = (
+				F5DBD0702CEDD2A700EFFEF3 /* AppDelegate.h */,
+				F5DBD0712CEDD2A700EFFEF3 /* AppDelegate.m */,
+				F5DBD0762CEDD2A700EFFEF3 /* ViewController.h */,
+				F5DBD0772CEDD2A700EFFEF3 /* ViewController.m */,
+				F5DBD08E2CEDE41A00EFFEF3 /* BeeMetricViewController.h */,
+				F5DBD08F2CEDE41A00EFFEF3 /* BeeMetricViewController.m */,
+				F5DBD0912CEDE63A00EFFEF3 /* BeeLeanMoreViewController.h */,
+				F5DBD0922CEDE63A00EFFEF3 /* BeeLeanMoreViewController.m */,
+				B2ABD2AE2CF461DF00835085 /* ColonyHarmony.h */,
+				B2ABD2AF2CF461DF00835085 /* ColonyHarmony.m */,
+				B2ABD2B12CF474CD00835085 /* BeeFlight.h */,
+				B2ABD2B22CF474CD00835085 /* BeeFlight.m */,
+				F5DBD0792CEDD2A700EFFEF3 /* Main.storyboard */,
+				F5DBD07C2CEDD2AC00EFFEF3 /* Assets.xcassets */,
+				F5DBD07E2CEDD2AC00EFFEF3 /* LaunchScreen.storyboard */,
+				F5DBD0812CEDD2AC00EFFEF3 /* Info.plist */,
+				B206F9712D004A8E0094C428 /* InfoPlist.strings */,
+				B2FAE30B2D02FE2400B851C4 /* Localizable.strings */,
+				F5DBD0822CEDD2AC00EFFEF3 /* main.m */,
+			);
+			path = BeeMetric;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5DBD06C2CEDD2A700EFFEF3 /* BeeMetric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DBD0862CEDD2AC00EFFEF3 /* Build configuration list for PBXNativeTarget "BeeMetric" */;
+			buildPhases = (
+				37F7C57C53F9CE61F3BA245C /* [CP] Check Pods Manifest.lock */,
+				F5DBD0692CEDD2A700EFFEF3 /* Sources */,
+				F5DBD06A2CEDD2A700EFFEF3 /* Frameworks */,
+				F5DBD06B2CEDD2A700EFFEF3 /* Resources */,
+				8E11A09DCB7289E85033A87F /* [CP] Embed Pods Frameworks */,
+				033C79EDCFFA6D211E89A71D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeMetric;
+			productName = BeeMetric;
+			productReference = F5DBD06D2CEDD2A700EFFEF3 /* BeeMetric.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5DBD0652CEDD2A700EFFEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F5DBD06C2CEDD2A700EFFEF3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F5DBD0682CEDD2A700EFFEF3 /* Build configuration list for PBXProject "BeeMetric" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = F5DBD0642CEDD2A700EFFEF3;
+			productRefGroup = F5DBD06E2CEDD2A700EFFEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5DBD06C2CEDD2A700EFFEF3 /* BeeMetric */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5DBD06B2CEDD2A700EFFEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FAE30D2D02FE2400B851C4 /* Localizable.strings in Resources */,
+				F5DBD07D2CEDD2AC00EFFEF3 /* Assets.xcassets in Resources */,
+				F5DBD0802CEDD2AC00EFFEF3 /* Base in Resources */,
+				B2FAE3182D030A5400B851C4 /* Main.storyboard in Resources */,
+				F5DBD07B2CEDD2A700EFFEF3 /* Base in Resources */,
+				B206F9732D004A8E0094C428 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033C79EDCFFA6D211E89A71D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeeMetric/Pods-BeeMetric-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeeMetric/Pods-BeeMetric-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeeMetric/Pods-BeeMetric-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37F7C57C53F9CE61F3BA245C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeeMetric-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E11A09DCB7289E85033A87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeeMetric/Pods-BeeMetric-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeeMetric/Pods-BeeMetric-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeeMetric/Pods-BeeMetric-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5DBD0692CEDD2A700EFFEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABD2B32CF474CD00835085 /* BeeFlight.m in Sources */,
+				F5DBD0782CEDD2A700EFFEF3 /* ViewController.m in Sources */,
+				B2ABD2B02CF461DF00835085 /* ColonyHarmony.m in Sources */,
+				F5DBD0722CEDD2A700EFFEF3 /* AppDelegate.m in Sources */,
+				F5DBD0932CEDE63A00EFFEF3 /* BeeLeanMoreViewController.m in Sources */,
+				F5DBD0832CEDD2AC00EFFEF3 /* main.m in Sources */,
+				F5DBD0902CEDE41A00EFFEF3 /* BeeMetricViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B206F9712D004A8E0094C428 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B206F9722D004A8E0094C428 /* en */,
+				B206F9742D004A9A0094C428 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2FAE30B2D02FE2400B851C4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FAE30C2D02FE2400B851C4 /* en */,
+				B2FAE30E2D02FE2800B851C4 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F5DBD0792CEDD2A700EFFEF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5DBD07A2CEDD2A700EFFEF3 /* Base */,
+				B2FAE3162D0303AB00B851C4 /* en */,
+				B2FAE3172D0303AE00B851C4 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5DBD07E2CEDD2AC00EFFEF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5DBD07F2CEDD2AC00EFFEF3 /* Base */,
+				B206F9702D004A750094C428 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5DBD0842CEDD2AC00EFFEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5DBD0852CEDD2AC00EFFEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5DBD0872CEDD2AC00EFFEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774B8EFE6EC4FC51895D233F /* Pods-BeeMetric.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeeMetric/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PureBeeWiseHub;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balkkNectaNest.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5DBD0882CEDD2AC00EFFEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C066AA1B2DA83DC91C08F91E /* Pods-BeeMetric.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeeMetric/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PureBeeWiseHub;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balkkNectaNest.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5DBD0682CEDD2A700EFFEF3 /* Build configuration list for PBXProject "BeeMetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DBD0842CEDD2AC00EFFEF3 /* Debug */,
+				F5DBD0852CEDD2AC00EFFEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DBD0862CEDD2AC00EFFEF3 /* Build configuration list for PBXNativeTarget "BeeMetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DBD0872CEDD2AC00EFFEF3 /* Debug */,
+				F5DBD0882CEDD2AC00EFFEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5DBD0652CEDD2A700EFFEF3 /* Project object */;
+}

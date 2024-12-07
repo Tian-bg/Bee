@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  BeeMetric
+
+  Created by Feng on 2024/12/6.
+  
+*/
+
+"beeMetText1" = "Honeycomb spatial planning";
+"beeMetText2" = "Honeycomb temperature and humidity";
+"beeMetText3" = "Nectar Source Plant Requirements";
+
+"beeMetText4" = "Intelligently plan nest frame layout according to colony size";
+"beeMetText5" = "Provide ideal temperature and humidity ranges and adjustment suggestions";
+"beeMetText6" = "Calculate the required nectar source area based on the number of bees";
+
+"beeMetText7" = "Hive area requirement (m²)= area per frame (m²) x number of nest frames";
+"beeMetText8" = "Heating power (W)= beehive insulation loss (W/m²)× beehive surface area (m²)";
+"beeMetText9" = "Honey source area (m²)= number of bees × demand for honey source per colony (kg)/Honey powder yield per square meter (kg)";
+
+"beeMetText10" = "1 - Area per frame (m²)";
+"beeMetText11" = "1 - Beehive insulation loss (W/m²)";
+"beeMetText12" = "1 - Number of bees × demand for honey source per colony (kg)";
+
+"beeMetText13" = "2 - Number of nest frames";
+"beeMetText14" = "2 - Beehive surface area (m²)";
+"beeMetText15" = "2 - Honey powder yield per square meter (kg)";
