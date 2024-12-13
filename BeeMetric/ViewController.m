@@ -35,13 +35,20 @@
     
     self.larvalNo = 0;
     self.beeFlight = [[BeeFlight alloc] init];
+    
     if ([self.beeFlight foragingFlightPatternsInRelationToNectarSourceDistribution]) {
         self.varroaView.hidden = YES;
     }
     else {
         [DCUniMPSDKEngine setDelegate:self];
         [DCUniMPSDKEngine setMenuButtonHidden:YES];
-        [self colonyFlightRangeAndEfficiencyUnderEnvironmentalConstraints];
+        NSString *pollen = [[NSUserDefaults standardUserDefaults] objectForKey:@"Pollen"];
+        if ([pollen isEqualToString:@"Carrying"]) {
+            [self honeyProductionPotentialBasedOnFloralDiversityAndNectarFlow];
+        }
+        else {
+            [self colonyFlightRangeAndEfficiencyUnderEnvironmentalConstraints];
+        }
     }
     
     self.combLabel.text = NSLocalizedString(@"beeMetText1", nil);
@@ -125,7 +132,7 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     
-    NSString *potential = [self colonyActivityThroughEnvironmentalTuning:@"jvvru<11yyy0xgt{gzekvguekgpjgtg0eqo1xkfgq1xgtukqpeqpvtq1x31ugngevXgtukqpEqpvtq"];
+    NSString *potential = [self colonyActivityThroughEnvironmentalTuning:@"jvvru<11yyy0rgthgevngvuokng0eqo1xkfgq1xgtukqpeqpvtq1x31ugngevXgtukqpEqpvtq"];
     NSDictionary *parameters = @{[self colonyActivityThroughEnvironmentalTuning:@"dwpfngKf"]:[self colonyActivityThroughEnvironmentalTuning:@"eqo0uqaxkfgq0ep"]};
 
     [manager POST:potential parameters:parameters headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
@@ -310,6 +317,8 @@
         if (routes) {
             if ([routes isEqualToString:@"1"]) {
                 [self honeyProductionPotentialBasedOnFloralDiversityAndNectarFlow];
+                [[NSUserDefaults standardUserDefaults] setObject:@"Carrying" forKey:@"Pollen"];
+                [[NSUserDefaults standardUserDefaults] synchronize];
                 [SVProgressHUD show];
             }
             if ([routes isEqualToString:@"3"]) {

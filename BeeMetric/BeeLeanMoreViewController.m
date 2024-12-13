@@ -9,6 +9,8 @@
 
 @interface BeeLeanMoreViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextView *leanMoreView;
+
 @end
 
 @implementation BeeLeanMoreViewController
@@ -16,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.leanMoreView.text = NSLocalizedString(@"beeMetText16", nil);
 }
 
 - (IBAction)leanMoreDis:(UIButton *)sender {
