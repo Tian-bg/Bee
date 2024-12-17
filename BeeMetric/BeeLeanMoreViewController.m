@@ -11,6 +11,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *leanMoreView;
 
+
 @end
 
 @implementation BeeLeanMoreViewController

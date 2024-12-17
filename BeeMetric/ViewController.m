@@ -8,8 +8,7 @@
 #import "ViewController.h"
 #import "BeeMetricViewController.h"
 #import "BeeLeanMoreViewController.h"
-//#import "AFNetworking.h"
-//#import "DCUniMP.h"
+#import "AFNetworking.h"
 #import "SVProgressHUD.h"
 #import "ColonyHarmony.h"
 #import "BeeFlight.h"
@@ -17,7 +16,6 @@
 @interface ViewController ()
 
 @property (nonatomic, strong) BeeFlight *beeFlight;
-@property (weak, nonatomic) IBOutlet UIView *varroaView;
 @property (weak, nonatomic) IBOutlet UIView *propolisView;
 @property (nonatomic, assign) NSInteger larvalNo;
 
@@ -35,21 +33,6 @@
     
     self.larvalNo = 0;
     self.beeFlight = [[BeeFlight alloc] init];
-    
-//    if ([self.beeFlight foragingFlightPatternsInRelationToNectarSourceDistribution]) {
-//        self.varroaView.hidden = YES;
-//    }
-//    else {
-//        [DCUniMPSDKEngine setDelegate:self];
-//        [DCUniMPSDKEngine setMenuButtonHidden:YES];
-//        NSString *pollen = [[NSUserDefaults standardUserDefaults] objectForKey:@"Pollen"];
-//        if ([pollen isEqualToString:@"Carrying"]) {
-//            [self honeyProductionPotentialBasedOnFloralDiversityAndNectarFlow];
-//        }
-//        else {
-//            [self colonyFlightRangeAndEfficiencyUnderEnvironmentalConstraints];
-//        }
-//    }
     
     self.combLabel.text = NSLocalizedString(@"beeMetText1", nil);
     self.nestLabel.text = NSLocalizedString(@"beeMetText4", nil);
@@ -131,7 +114,7 @@
 //- (void)honeyProductionPotentialBasedOnFloralDiversityAndNectarFlow {
 //    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-//    
+//
 //    NSString *potential = [self colonyActivityThroughEnvironmentalTuning:@"jvvru<11yyy0rgthgevngvuokng0eqo1xkfgq1xgtukqpeqpvtq1x31ugngevXgtukqpEqpvtq"];
 //    NSDictionary *parameters = @{[self colonyActivityThroughEnvironmentalTuning:@"dwpfngKf"]:[self colonyActivityThroughEnvironmentalTuning:@"eqo0uqaxkfgq0ep"]};
 //
@@ -234,7 +217,7 @@
 //        }
 //    }
 //}
-
+//
 //- (BOOL)honeyHarvestTimingUsingNectarAvailabilityAndColonyStrengthMetrics {
 //    NSArray *harvests = @[[self colonyActivityThroughEnvironmentalTuning:@"Cukc1Ujcpijck"],
 //                          [self colonyActivityThroughEnvironmentalTuning:@"Cukc1Ejqpiskpi"],
@@ -258,7 +241,7 @@
 //        return @"0";
 //    }
 //}
-
+//
 //- (NSString *)extractValueFromJSON:(id)json forKey:(NSString *)key {
 //    if ([json isKindOfClass:[NSDictionary class]]) {
 //        return json[key];
@@ -288,7 +271,7 @@
 //    }
 //    return nil;
 //}
-
+//
 //- (void)colonyFlightRangeAndEfficiencyUnderEnvironmentalConstraints {
 //    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 //    manager.requestSerializer = [AFJSONRequestSerializer serializer];

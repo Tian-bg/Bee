@@ -13,7 +13,6 @@ workflows:
         BUNDLE_ID: "com.balkkNectaNest.cn"
         XCODE_WORKSPACE: BeeMetric.xcworkspace # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "BeeMetric" # <-- Put the name of your Xcode scheme here
-#        APP_STORE_APPLE_ID: 6473255577
       xcode: latest
       cocoapods: default
     scripts:
