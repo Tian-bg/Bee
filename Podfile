@@ -8,8 +8,4 @@ target 'BeeMetric' do
   # Pods for BeeMetric
 pod 'AFNetworking'
 pod 'SVProgressHUD'
-pod 'unimp', :subspecs => [
-        'Core', 
-        'File',
-        'Video']
 end
