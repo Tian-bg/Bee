@@ -10,8 +10,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ColonyHarmony : NSObject
 
-+ (NSString *)colonyResourceAllocationEfficiencyAcrossForagingZones;
-+ (NSString *)detectAndVisualizeAnomalousInteractionClusters;
+//+ (NSString *)colonyResourceAllocationEfficiencyAcrossForagingZones;
+//+ (NSString *)detectAndVisualizeAnomalousInteractionClusters;
 
 @end
 
